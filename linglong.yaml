@@ -1,0 +1,18 @@
+package:
+  id: udisks2-qt5
+  version: 5.0.3
+  kind: lib
+
+runtime:
+  id: org.deepin.Runtime
+  version: 20.5.0
+
+source:
+  kind: git
+  url: https://github.com/deepin-community/udisks2-qt5.git
+  version: 5.0.3
+  commit: 05a160b16a0e746bfb5d5330718be13978f07da7
+
+  patch: []
+build:
+  kind: qmake
